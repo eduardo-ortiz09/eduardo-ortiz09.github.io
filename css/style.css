@@ -1,0 +1,38 @@
+.head {
+  background:linear-gradient(to bottom, #ffc107, #000);
+}
+.head .child-head {
+  min-height: 100vh;
+}
+.imgAbout {
+  max-width: 300px;
+}
+.cardProject {
+  width: 20rem;
+  margin: 2em;
+}
+footer {
+  background-color: #343434;
+}
+iframe {
+  max-width: 550px;
+  height: 300px;
+}
+.tech {
+  max-width: 100px;
+}
+@media screen and (max-width:500px){
+  iframe{
+    max-width: 290px;
+  }
+}
+@media screen and (max-width:1000px){
+  iframe{
+    max-width: 350px;
+  }
+}
+@media screen and (max-width:400px){
+  iframe{
+    max-width: 250px;
+  }
+}

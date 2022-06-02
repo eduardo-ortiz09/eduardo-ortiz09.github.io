@@ -1,7 +1,131 @@
-<html>
-<h1>Mi Portafolio Eduardo Ortiz</h1>
-<img src="./imagen.jpg">
-  <footer>
-    <a href="mailto:eduardo_ortiz09@hotmail.com">Contactame aqui</a>
-</footer>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Eduardo Ortiz Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  </head>
+  <body class="row">
+
+    <!--header-->
+
+    <header class="container-fluid d-flex flex-column head p-3 text-white">
+      <div class="w-100">
+        <div class="container-lg text-center">
+          <h3 class="float-md-start float-none mb-0 text-black">Eduardo Ortiz</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 text-black mx-2" href="#about">About</a>
+            <a class="nav-link fw-bold py-1 px-0 text-black mx-2" href="#projects">Projects</a>
+            <a class="nav-link fw-bold py-1 px-0 text-black mx-2" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container-lg d-inline-flex flex-column align-content-center justify-content-center w-100 text-center child-head">
+        <h1>Eduardo´s Portfolio.</h1>
+        <p class="lead">Welcome to my Portfolio, check inside to see my work!.</p>
+        <p class="lead">
+        <a href="#about" class="btn btn-lg btn-secondary fw-bold border-white bg-warning text-black">More..</a>
+        </p>
+      </div>
+    </header>
+
+
+    <!--End header-->
+
+    <!--content-->
+    <main class="w-100 bg-white">
+      <!--section about-->
+      <section id="about" class="mx-auto container-lg text-black my-3 row justify-content-center">
+        <h2 class="text-center my-4"> About </h2>
+        <img class="col-12 col-md-6 imgAbout w-100 rounded-circle" src="images/photo.jpeg" alt="">
+        <p class="col-12 col-md-6 mt-5">
+        Hi my name is Eduardo Ortiz and I am currently taking the MIT  Programming Certificate with MERN, before this I had not experience in tech but I have been working hard and now I am able to work with HTML, CSS and JavaScript I am still learning but I know the basics and a little more of those technologies. Thank you guys and see you again soon !!
+        </p>
+
+        <p class="col-12 text-center">
+          <img class="tech" src="images/html.png" alt="">
+          <img class="tech" src="images/css.png" alt="">
+          <img class="tech" src="images/javascript.png" alt="">
+        </p>
+      </section>
+      <!--End section about-->
+
+      <!--Section video-->
+      <section class="row my-5 p-2">
+        <div class="container-lg text-center">
+          <h2 class="my-5">Video about me</h2>
+          <iframe class="w-100 m-auto" src="https://www.youtube.com/embed/J7c1Zm-MXFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <!--End section video-->
+
+      <section id="projects" class="container-lg my-3">
+        <h1 class="text-center my-4">Projects</h1>
+        <div class="row d-flex justify-content-center">
+          <div class="card col-12 col-md-6 cardProject">
+            <img src="https://github.com/eduardo-ortiz09/Pacmen-Factory/raw/main/pacmen.png" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pacmen-Factory</h5>
+              <p class="card-text">This proyect is about a famous video game from the 80's that its a little face that is moving forward eating everything on its way. The proyect is part of the MERN Programming Certificate from the MIT that I am attending.</p>
+              <a href="https://github.com/eduardo-ortiz09/Pacmen-Factory" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://eduardo-ortiz09.github.io/Pacmen-Factory" target="_blank" class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 cardProject">
+            <img src="https://github.com/eduardo-ortiz09/Real-Time-Bus-Tracker/raw/main/Screenshot.png" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Real Time Bus Tracker</h5>
+              <p class="card-text">This proyect is about a public bus that runs from MIT to Harvard, in Cambridge Massachusetts, and it shows the stops that there are betwen those two institutions. The proyect is part of the MERN Programming Certificate from the MIT that I am attending.</p>
+              <a href="https://github.com/eduardo-ortiz09/Real-Time-Bus-Tracker" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://eduardo-ortiz09.github.io/Real-Time-Bus-Tracker" target="_blank" class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 cardProject">
+            <img src="https://github.com/eduardo-ortiz09/Eye-Exercise/raw/main/eye.png" class="card-img-top mt-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Eye-Exercise</h5>
+              <p class="card-text">This proyect is about an eye that is looking at the cursor of the mouse, any where the cursor goes on the screen the eye will follow it. The proyect is part of the MERN Programming Certificate from the MIT that I am attending.</p>
+              <a href="https://github.com/eduardo-ortiz09/Eye-Exercise" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://eduardo-ortiz09.github.io/Eye-Exercise" target="_blank" class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="w-100 my-4">
+        <h2 class="text-center my-2">Contact with me</h2>
+        <form class="container-lg mx-auto">
+          <div class="mb-3">
+            <label class="form-label">Name:</label>
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email address:</label>
+            <input type="email" class="form-control" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Message:</label>
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="w-100 text-center p-4 mt-5">
+      <h2 class="fs-2 text-white">Eduardo Ortiz</h2>
+      <div>
+        <a class="bi bi-github m-2 text-warning fs-3" target="_blank" href="https://github.com/eduardo-ortiz09/"></a>
+        <a class="bi bi-linkedin m-2 text-warning fs-3" target="_blank" href="https://www.linkedin.com/in/eduardo-ortiz-vazquez-5b2b121b9/"></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
